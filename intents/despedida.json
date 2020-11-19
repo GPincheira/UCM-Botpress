@@ -1,0 +1,17 @@
+{
+  "name": "despedida",
+  "utterances": {
+    "es": [
+      "despedida",
+      "Adiós",
+      "Que estés bien",
+      "Chao",
+      "Cuidate",
+      "Bye"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

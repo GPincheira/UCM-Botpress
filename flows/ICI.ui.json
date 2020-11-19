@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "d8c261a0ed",
+      "position": {
+        "x": -20,
+        "y": 0
+      }
+    },
+    {
+      "id": "7b2a997894",
+      "position": {
+        "x": -45,
+        "y": 110
+      }
+    },
+    {
+      "id": "981bca829f",
+      "position": {
+        "x": 185,
+        "y": 255
+      }
+    },
+    {
+      "id": "be25353264",
+      "position": {
+        "x": 565,
+        "y": 165
+      }
+    },
+    {
+      "id": "d924e63b6d",
+      "position": {
+        "x": 590,
+        "y": 370
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "7b2a997894",
+      "sourcePort": "out1",
+      "target": "981bca829f",
+      "points": [
+        {
+          "x": 162,
+          "y": 205
+        },
+        {
+          "x": 285,
+          "y": 248
+        }
+      ]
+    },
+    {
+      "source": "981bca829f",
+      "sourcePort": "out0",
+      "target": "be25353264",
+      "points": [
+        {
+          "x": 392,
+          "y": 305
+        },
+        {
+          "x": 665,
+          "y": 158
+        }
+      ]
+    },
+    {
+      "source": "981bca829f",
+      "sourcePort": "out1",
+      "target": "d924e63b6d",
+      "points": [
+        {
+          "x": 392,
+          "y": 327
+        },
+        {
+          "x": 690,
+          "y": 363
+        }
+      ]
+    },
+    {
+      "source": "be25353264",
+      "sourcePort": "out0",
+      "target": "7b2a997894",
+      "points": [
+        {
+          "x": 772,
+          "y": 268
+        },
+        {
+          "x": 55,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "source": "d8c261a0ed",
+      "sourcePort": "out0",
+      "target": "7b2a997894",
+      "points": [
+        {
+          "x": 187,
+          "y": 35
+        },
+        {
+          "x": 55,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "source": "d924e63b6d",
+      "sourcePort": "out0",
+      "target": "7b2a997894",
+      "points": [
+        {
+          "x": 797,
+          "y": 473
+        },
+        {
+          "x": 55,
+          "y": 103
+        }
+      ]
+    }
+  ]
+}

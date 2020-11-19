@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": -80,
+        "y": -185
+      }
+    },
+    {
+      "id": "skill-66a47c",
+      "position": {
+        "x": 350,
+        "y": -15
+      }
+    },
+    {
+      "id": "9d84866e10",
+      "position": {
+        "x": 540,
+        "y": 85
+      }
+    },
+    {
+      "id": "7c2e9df272",
+      "position": {
+        "x": 695,
+        "y": 235
+      }
+    },
+    {
+      "id": "skill-762449",
+      "position": {
+        "x": -10,
+        "y": -50
+      }
+    },
+    {
+      "id": "69b6696815",
+      "position": {
+        "x": 850,
+        "y": 350
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "7c2e9df272",
+      "sourcePort": "out0",
+      "target": "69b6696815",
+      "points": [
+        {
+          "x": 902,
+          "y": 292
+        },
+        {
+          "x": 950,
+          "y": 343
+        }
+      ]
+    },
+    {
+      "source": "9d84866e10",
+      "sourcePort": "out0",
+      "target": "7c2e9df272",
+      "points": [
+        {
+          "x": 747,
+          "y": 157
+        },
+        {
+          "x": 795,
+          "y": 228
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "skill-762449",
+      "points": [
+        {
+          "x": 127,
+          "y": -113
+        },
+        {
+          "x": 90,
+          "y": -57
+        }
+      ]
+    },
+    {
+      "source": "skill-66a47c",
+      "sourcePort": "out1",
+      "target": "9d84866e10",
+      "points": [
+        {
+          "x": 557,
+          "y": 57
+        },
+        {
+          "x": 640,
+          "y": 78
+        }
+      ]
+    },
+    {
+      "source": "skill-762449",
+      "sourcePort": "out0",
+      "target": "skill-66a47c",
+      "points": [
+        {
+          "x": 197,
+          "y": 0
+        },
+        {
+          "x": 275,
+          "y": -35
+        },
+        {
+          "x": 450,
+          "y": -22
+        }
+      ]
+    }
+  ]
+}
